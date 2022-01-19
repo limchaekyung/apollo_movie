@@ -62,7 +62,7 @@ export default () => {
     return(
         <Container>
             <Column>
-                <Title>{loading ? "Loading..." : `${data.movie.title} ${data.movie.isLiked ? "❤" : "🖤"}`}</Title>
+                <Title>{loading ? "Loading..." : `${data.movie.title} ${data.movie.isLiked ? "💖" : "🖤"}`}</Title>
                         <SubTitle>
                             {data?.movie?.language} · {data?.movie?.rating}
                         </SubTitle>
